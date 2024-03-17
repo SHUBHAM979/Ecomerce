@@ -1,0 +1,35 @@
+/* 
+---------------------------------------------
+welcome
+--------------------------------------------- 
+*/
+
+.welcome-image {
+	filter:blur(10px) grayscale(50%) drop-shadow(8px 8px 10px rgb(205, 19, 19)) opacity(100%);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover; 
+	height: 600px;
+	width: 100%;
+	background-image: url('../../../assets/dummybackground.jpg');
+  
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.centered-text {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
